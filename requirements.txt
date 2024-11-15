@@ -1,2 +1,6 @@
 pytest
 pre-commit
+pandana
+osmnx
+geopandas
+jupyter

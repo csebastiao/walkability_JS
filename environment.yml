@@ -1,6 +1,10 @@
-name: ENVNAME
+name: js_walk
 channels:
   - conda-forge
 dependencies:
   - pytest
   - pre-commit
+  - pandana
+  - osmnx
+  - geopandas
+  - jupyter
