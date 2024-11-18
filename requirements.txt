@@ -4,3 +4,4 @@ pandana
 osmnx
 geopandas
 jupyter
+seaborn

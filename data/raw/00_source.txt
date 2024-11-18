@@ -1,7 +1,7 @@
 Methodology rules:
 - Always single and full (meaning without a hole) polygon.
-- When data is not coming from authoritative source, taking as a reference OpenStreetMap (OSM).
-- Checking with Google Maps if shown boundaries are the same. If not, hand-drawing within the boundaries from OSM mimicking Google Maps boundaries.
+- When data is not coming from authoritative source, taking as a reference OpenStreetMap (OSM), finding the OSMID on Nominatim and then using OSMnx (osmnx.geocoder.geocode_to_gdf("osmid", by_osmid=True)).
+- If not authoritative, checking OSM polygon with Google Maps if shown boundaries are the same. If not, hand-drawing within the boundaries from OSM mimicking Google Maps boundaries.
 
 City list:
 Amsterdam: Main polygon from OSM (OSMID: R271110)
