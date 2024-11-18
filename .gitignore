@@ -253,4 +253,9 @@ $RECYCLE.BIN/
 
 # End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,python,macos,windows
 
+# Osmnx
 cache
+
+# Files that are too big
+data/processed
+plots/city_graphs
