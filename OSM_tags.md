@@ -1,0 +1,11 @@
+According to (Moreno et al., 2021):
+"For the present “15-minute” concept, Moreno supports that residents will be able to enjoy a higher quality of life where they will be able to effectively fulfil six essential urban social functions to sustain a decent urban life. Those include (a) living, (b) working, (c) commerce, (d) healthcare, (e) education and (f) entertainment"
+
+As OSM data is very heterogeneous and incomplete, while we ackowledge that having a single access to each is not necessarily enough, we cannot be a restrictive and need to focus on completing each with a limited number of POIs.
+
+- Living: Using [Meta population dataset](https://dataforgood.facebook.com/dfg/tools/high-resolution-population-density-maps/) every pixel with someone living would count as fulfilling living.
+- Working: The diversity of jobs make it hard to track it well, as not anyone can do any job. Any other service such as commerce, healthcare, education and entertainment are by definition also working places. Either it should not be tracked as it is overlapping with a lot of other tags, or it should be ticked with a threshold of a higher number of POIs within reach. Tags could be [office](https://wiki.openstreetmap.org/wiki/Key:office) or [craft](https://wiki.openstreetmap.org/wiki/Key:craft) and the ones listed below.
+- Commerce: Here commerce will be focused on groceries, as having access to a bespoke tailor nearby only would not be considered as fulfilling this. Tags could be some of the ones in [shop](https://wiki.openstreetmap.org/wiki/Key:shop) such as supermarket, convenience store, department store, mall...
+- Healthcare: Here the keys would be divided between multiple keys in [healthcare](https://wiki.openstreetmap.org/wiki/Healthcare), but the most important ones are doctor, clinic, hospital, and pharmacy.
+- Education: In the context of a decent urban life, education will be focused on [general education](https://wiki.openstreetmap.org/wiki/Tag:landuse%3Deducation), especially kindergarten, and school.
+- Entertainment: Entertainment is mostly in [amenities](https://wiki.openstreetmap.org/wiki/Key:amenity), cultural (cinema, museum), physical (fitness centre), and social places (cafe, pub).

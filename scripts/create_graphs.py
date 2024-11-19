@@ -22,7 +22,9 @@ if __name__ == "__main__":
         city_name = file_poly.split(".")[0]
         poly = gpd.read_file(folder_poly + file_poly).geometry[0]
         # Extract graph from OSM using OSMnx.
-        G = ox.graph_from_polygon(poly)
+        G = ox.graph_from_polygon(poly, simplify=False)
+        ox.save_graphml(G, folder_graph + city_name + "_unsimplified.graphml")
+        G = ox.simplify_graph(G)
         ox.save_graphml(G, folder_graph + city_name + ".graphml")
         # Save static figure
         ox.plot_graph(

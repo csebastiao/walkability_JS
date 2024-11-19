@@ -1,0 +1,21 @@
+{
+    "amenity":[
+        "cafe",
+        "pub",
+        "bar",
+        "restaurant"
+    ],
+    "shop":[
+        "bakery",
+        "convenience",
+        "supermarket",
+        "mall",
+        "department_store",
+        "clothes",
+        "fashion",
+        "shoes"
+    ],
+    "leisure":[
+        "fitness_centre"
+    ]
+}
