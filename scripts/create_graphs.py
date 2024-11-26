@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Create graph for all cities from gpkg file with a polygon in each. 
+Create graph for all cities from gpkg file with a polygon in each, see "./data/raw/00_source.txt" for more information. 
 """
 
 
@@ -25,7 +25,7 @@ if __name__ == "__main__":
         G = ox.graph_from_polygon(poly, simplify=False)
         ox.save_graphml(G, folder_graph + city_name + "_unsimplified.graphml")
         G = ox.simplify_graph(G)
-        ox.save_graphml(G, folder_graph + city_name + ".graphml")
+        ox.save_graphml(G, folder_graph + city_name + "_fully_simplified.graphml")
         # Save static figure
         ox.plot_graph(
             G,

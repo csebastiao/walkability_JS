@@ -1,0 +1,28 @@
+{
+    "Commerce":[
+        "food",
+        "greengrocer",
+        "convenience",
+        "supermarket",
+        "mall",
+        "department_store"
+    ],
+    "Healthcare":[
+        "clinic",
+        "doctors",
+        "hospital"
+    ],
+    "Education":[
+        "kindergarten",
+        "school"
+    ],
+    "Entertainment":[
+        "library",
+        "arts_centre",
+        "cinema",
+        "community_centre",
+        "music_venue",
+        "theatre",
+        "museum"
+    ]
+}
