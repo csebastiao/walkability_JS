@@ -6,9 +6,7 @@
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit)
 
-This is the source code for the Walkability Analysis for [Just Streets](https://www.just-streets.eu/), WP 3.1, 3.2 by [Clément Sebastiao](https://orcid.org/0009-0009-3084-0071) and [Michael Szell](https://orcid.org/0000-0003-3022-2483). The code SHORTEXPLANATION.
-
-**Data repository**: [zenodo.XXXXXXX](https://zenodo.org/record/XXXXXXX)
+This is the source code for the Walkability Analysis for [Just Streets](https://www.just-streets.eu/), WP 3.1 by [Clément Sebastiao](https://orcid.org/0009-0009-3084-0071) and [Michael Szell](https://orcid.org/0000-0003-3022-2483). The code conducts a GIS analysis using public data from OpenStreetMap, focusing on walkability and accessibility for older adults.
 
 ![PROJECTNAME](https://images.squarespace-cdn.com/content/v1/6642265dc7453f34ac58ff87/acf2eae5-aef8-4fdc-8cd9-5f061c7f4e96/JS_Logo_Green_long.png?format=200w)
 
