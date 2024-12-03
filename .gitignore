@@ -258,5 +258,5 @@ cache
 
 # Files that are too big
 data/processed
-plots/city_graphs
+plots
 data/raw/Amsterdam_*

@@ -10,7 +10,9 @@
         "doctors",
         "hospital",
         "kindergarten",
-        "school"
+        "school",
+        "bar",
+        "cafe"
     ],
     "shop":[
         "food",
@@ -22,5 +24,12 @@
     ],
     "tourism":[
         "museum"
+    ],
+    "leisure":[
+        "stadium",
+        "sports_centre",
+        "sports_hall",
+        "dance",
+        "fitness_centre"
     ]
 }

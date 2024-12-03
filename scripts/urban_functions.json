@@ -23,6 +23,13 @@
         "community_centre",
         "music_venue",
         "theatre",
-        "museum"
+        "museum",
+        "bar",
+        "cafe",
+        "stadium",
+        "sports_centre",
+        "sports_hall",
+        "dance",
+        "fitness_centre"
     ]
 }
